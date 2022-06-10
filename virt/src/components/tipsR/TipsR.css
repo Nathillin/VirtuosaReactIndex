@@ -1,0 +1,79 @@
+.ropaTips{
+    background-color: #f7f5fc;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    padding-top: 30px;
+}
+
+.ImgRopa{
+    float: left;
+    width: 110px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.texRopa p{
+    text-align: justify;
+    
+    line-height: 1rem;
+    font-size: 10px;
+}
+
+.texRopa span h3{
+    font-weight: bold;
+    padding-top: 30px;
+    font-size: 10px;
+    color: #AA95C7;
+}
+
+/* :::::::::::::::::::::::::::::::::::::::::::: RESPONSIVE: tableta ::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+@media screen and (min-width:768px) {
+    .ImgRopa{
+        width: 168px;
+    }
+
+    .texRopa{
+        padding-top: 2rem;
+    }
+
+    .texRopa p{
+        line-height: 1.5rem;
+        font-size: 1.5vw;
+    }
+
+    .texRopa span h3{
+        font-size: 1.5vw;
+    }
+}
+
+/* :::::::::::::::::::::::::::::::::::::::::::: RESPONSIVE: medio ::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+@media screen and (min-width:1024px) {
+    .ropaTips{
+        padding: 70px;
+    }
+
+    .ImgRopa{
+        width: 310px
+    }
+    .texRopa p{
+        line-height: 2rem;
+    }
+}
+
+/* :::::::::::::::::::::::::::::::::::::::::::: RESPONSIVE: grande ::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+@media screen and (min-width:1366px) and (max-width:1440px) {
+    .ropaTips{
+        padding: 50px;
+    }
+
+    .ImgRopa{
+        width: 488px;
+        height: 1229px;
+        margin-right: 2rem;
+    }
+    .texRopa p{
+        line-height: 2rem;
+    }
+}

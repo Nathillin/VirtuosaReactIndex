@@ -1,0 +1,99 @@
+.Makeup-all{
+    background-color: #f7f5fc;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    padding-top: 30px;
+}
+
+.ImgMakeup{
+    width: 120px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.Makeup p{
+    text-align: justify;
+    
+    font-size: 10px;
+    line-height: 1rem;
+}
+
+.Makeup span h3{
+    font-weight: bold;
+    padding-top: 30px;
+    color: #AA95C7;
+    font-size: 3vw;
+}
+
+.ImgMakeupp{
+    width: 150px;
+    float: right;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* :::::::::::::::::::::::::::::::::::::::::::: RESPONSIVE: tableta ::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+@media screen and (min-width:768px) {
+    .Makeup-all{
+        margin: auto;
+        padding-top: 3rem;
+    }
+
+    .ImgMakeup{
+        min-width: 250px;
+    }
+    .Makeup p{
+        line-height: 1.5rem;
+        font-size: 1.5vw;
+    }
+
+    .Makeup span h3{
+        font-size: 1.5vw;
+    }
+
+    .ImgMakeupp{
+        min-width: 250px;
+    }
+}
+
+/* :::::::::::::::::::::::::::::::::::::::::::: RESPONSIVE: medio ::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+@media screen and (min-width:1024px) {
+    .Makeup-all{
+        margin: auto;
+        padding-top: 5rem;
+    }
+
+    .ImgMakeup{
+        width: 370px;
+    }
+    .Makeup p{
+        line-height: 2rem;
+    }
+
+    .ImgMakeupp{
+        min-width: 370px;
+    }
+}
+
+/* :::::::::::::::::::::::::::::::::::::::::::: RESPONSIVE: grande ::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+@media screen and (min-width:1366px) {
+    .Makeup-all{
+        padding: 70px;
+    }
+
+    .ImgMakeup{
+        min-width: 280px;
+        padding-right: 20px;
+    }
+    .Makeup p{
+        line-height: 2rem;
+    }
+
+    .ImgMakeupp{
+        min-width: 250px;
+    }
+}
