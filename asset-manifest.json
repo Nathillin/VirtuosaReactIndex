@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/VirtuosaReactIndex/static/css/main.84d5b287.css",
+    "main.js": "/VirtuosaReactIndex/static/js/main.2cd27753.js",
+    "static/media/ropaIndex.svg": "/VirtuosaReactIndex/static/media/ropaIndex.2d777b61a3d31440fb65.svg",
+    "static/media/imgTipsRopa.png": "/VirtuosaReactIndex/static/media/imgTipsRopa.77315a9fc37345e4302f.png",
+    "static/media/imgContactanos.png": "/VirtuosaReactIndex/static/media/imgContactanos.f01cc624de0b293143ee.png",
+    "static/media/TipsRopa.png": "/VirtuosaReactIndex/static/media/TipsRopa.5ce71cdb2e62e966fe7e.png",
+    "static/media/nosotros.png": "/VirtuosaReactIndex/static/media/nosotros.ba756921b0073d6990b7.png",
+    "static/media/makeupIndex.svg": "/VirtuosaReactIndex/static/media/makeupIndex.fbd28f34e1fb42cde912.svg",
+    "static/media/imgMakeup.png": "/VirtuosaReactIndex/static/media/imgMakeup.e35dbe872c21667660fe.png",
+    "static/media/mapa.png": "/VirtuosaReactIndex/static/media/mapa.819c775c46ea1f838ecd.png",
+    "static/media/imgTipsMakeup.png": "/VirtuosaReactIndex/static/media/imgTipsMakeup.53a910293090969d1911.png",
+    "static/media/imgMakeupp.png": "/VirtuosaReactIndex/static/media/imgMakeupp.0cbb2e836b26de4e29ad.png",
+    "static/media/logGris.png": "/VirtuosaReactIndex/static/media/logGris.c16af6a2b8511bf7265e.png",
+    "static/media/logo 1.svg": "/VirtuosaReactIndex/static/media/logo 1.70dd897fa37f6a48b5c0625edc51ed5f.svg",
+    "index.html": "/VirtuosaReactIndex/index.html",
+    "main.84d5b287.css.map": "/VirtuosaReactIndex/static/css/main.84d5b287.css.map",
+    "main.2cd27753.js.map": "/VirtuosaReactIndex/static/js/main.2cd27753.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.84d5b287.css",
+    "static/js/main.2cd27753.js"
+  ]
+}
