@@ -33,7 +33,6 @@ const App = () => {
             nombre.valido === 'true' &&
             correo.valido === 'true' &&
             telefono.valido === 'true' &&
-            // archivo.valido === 'true' &&
             mensaje.valido === 'true' &&
             terminos
         ) {
@@ -41,7 +40,6 @@ const App = () => {
             cambiarNombre({ campo: '', valido: null });
             cambiarCorreo({ campo: '', valido: null });
             cambiarTelefono({ campo: '', valido: null });
-            // cambiarArchivo({campo: '', valido: null});
             cambiarMensaje({campo: '', valido: null});
 
         } else {
@@ -101,7 +99,8 @@ const App = () => {
                     rows={3}
                     placeholder='Escribe tu observacion, inquietud, duda o sugerencia'
                     name='observacion' 
-                    leyendaError="Por favor ingrese su mensaje."                   
+                    leyendaError="Por favor ingrese su mensaje." 
+                    expresionRegular={expresiones.mensaje}                  
                 />
 
                 <Input

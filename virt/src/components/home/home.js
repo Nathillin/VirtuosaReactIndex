@@ -34,8 +34,8 @@ function Home() {
                 <li>
                     <a href="/tips" class="item">TIPS <i class="fa-solid fa-angle-down"></i></a>
                     <ul class="submenu">
-                        <li><Link to='/VirtuosaReactIndex/tips-maquillaje'>Tips Maquillaje</Link></li>
-                        <li><Link to='/virtuosareactindex/tips-ropa'>Tips Ropa</Link></li>
+                        <li><Link to='/tips-maquillaje'>Tips Maquillaje</Link></li>
+                        <li><Link to='/tips-ropa'>Tips Ropa</Link></li>
                     </ul>
                 </li>
 
@@ -45,8 +45,8 @@ function Home() {
             <ul class="nav-menu">
 
                 <li><Link to='/experiencias' class="item">EXPERIENCIAS</Link></li>
-                <li><Link to='/virtuosareactindex/nosotros' class="item">NOSOTROS</Link></li>
-                <li><Link to='/virtuosareactindex/contacto' class="item">CONTACTO</Link></li>
+                <li><Link to='/nosotros' class="item">NOSOTROS</Link></li>
+                <li><Link to='/contacto' class="item">CONTACTO</Link></li>
 
             </ul>
         </nav>
